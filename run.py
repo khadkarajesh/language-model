@@ -15,7 +15,6 @@ def load_file(filename):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--training', default='no', type=str, help='training')
-    parser.add_argument('--inference', default='yes', type=str, help='inference')
     args = parser.parse_args()
 
     input_document = "the_republic_clean.txt"
