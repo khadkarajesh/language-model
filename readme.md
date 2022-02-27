@@ -5,8 +5,7 @@ Dataset is taken from the following book [url](https://www.gutenberg.org/files/1
 ### Run Application
 
 ```python
-python
-run.py - -training = "yes|no"
+python run.py - -training = "yes|no"
 ```
 
 ### Inference
